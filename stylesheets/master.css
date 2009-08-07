@@ -1,17 +1,17 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   letter-spacing: -0.05em;
-  background: #210;
+  background: #d2d2d2;
   color: #353B40;
 }
 
 a {
-  color: #262;
+  color: #3c4fca;
   font-weight: bold;
 }
 
 a:visited {
-  color: #353b40;
+  color: #1b2660;
   font-weight: normal;
 }
 
@@ -93,7 +93,7 @@ a:visited {
 }
 
 span.date {
-  background: #484;
+  background: #cecece;
   display: block;
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
