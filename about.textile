@@ -5,8 +5,7 @@ layout: master
 
 h2. About Tom Crayford
 
-Nothing yet
-
+"Follow me on twitter here:"http://twitter.com/crazzyford
 
 h2. About This Site
 
