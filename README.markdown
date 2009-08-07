@@ -3,7 +3,7 @@ Tom Crayford
 
 This is the Jekyll source for Tom Crayford's blog.
 
-It was based off of the awesome Michael Bleigh's blog and website, Mister Bleigh, and he gets fullcredit for everything that is good looking or impressive about this site.
+It was based off of the awesome Michael Bleigh's blog and website, Mister Bleigh, and he gets full credit for everything that is good looking or impressive about this site.
 
 It makes some nice use of Jekyll's liquid templating system (see blog.html) and uses Javscript to pull information from GitHub for the open-source section.
 
