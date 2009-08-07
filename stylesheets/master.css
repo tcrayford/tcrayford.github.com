@@ -54,6 +54,8 @@ a:visited {
 }
 
 #menu {
+	display: inline;
+	margin: 0px;
 }
 
 #menu ul {
