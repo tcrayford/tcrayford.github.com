@@ -87,7 +87,6 @@ span.date {
   display: block;
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
-  color: white;
   border-bottom: 3px solid #262;
   float: left;
 }
@@ -175,7 +174,6 @@ div.related {
 }
 
 .home_box h2 a {
-  color: white;
   margin: 0 0.2em;
 }
 
