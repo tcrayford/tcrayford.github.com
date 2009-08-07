@@ -4,7 +4,7 @@ layout: master
 ---
 
 h2. About Tom Crayford
-
+Nothing yet
 
 
 h2. About This Site
