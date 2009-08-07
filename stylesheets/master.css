@@ -55,28 +55,17 @@ a:visited {
 
 #menu {
 	font-size: 2em;
-	color: #4356b2;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
 	margin: 0px;
 }
 
-#menu ul {
-  list-style: none;
-  margin: 0;
-  text-align: center;
-}
-
-#menu ul li {
-  display: inline;
-}
-
-#menu ul li a {
-  color: #4556b2;
-  font-size: 2em;
-  padding: 0 0.5em;
-  line-height: 2.5em;  
-  font-weight: bold;
+#menu a {
+	font-size: 2em;
+	color: #4356b2;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	display: inline;
+	margin: 0px;
 }
 
 #content {
