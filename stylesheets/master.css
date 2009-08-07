@@ -27,7 +27,6 @@ a:visited {
 #header {
   text-transform: lowercase;
   text-align: left;
-  background: #d3d3d3;
   -moz-border-radius-topleft: 1em;
   -webkit-border-top-left-radius: 1em;
   -moz-border-radius-topright: 1em;
@@ -55,7 +54,7 @@ a:visited {
 }
 
 #menu {
-  background: #d3d3d3;
+	background-color: white;
 }
 
 #menu ul {
