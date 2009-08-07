@@ -103,14 +103,17 @@ span.date {
 }
 
 div.post {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 2em;
 }
 
 .post h1 {
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   margin-top: 0.2em;
 }
 
 .post h1 a {
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   text-decoration: none;
   clear: left;
   display: block;
