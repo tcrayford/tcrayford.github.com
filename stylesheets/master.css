@@ -54,6 +54,9 @@ a:visited {
 }
 
 #menu {
+	font-size: 2em;
+	color: #4356b2;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
 	margin: 0px;
 }
@@ -92,7 +95,6 @@ a:visited {
 }
 
 span.date {
-  background: #cecece;
   display: block;
   padding: 0.4em 0.6em 0.3em;
   font-weight: bold;
