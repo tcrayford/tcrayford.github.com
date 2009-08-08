@@ -6,7 +6,5 @@ title:  Testing
 Testing 1 2 3
 
 {% highlight clojure %}
-def foo
-  puts 'foo'
-end
+(defn foo [] (str "pork"))
 {% endhighlight %}
