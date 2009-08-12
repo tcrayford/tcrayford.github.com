@@ -3,7 +3,7 @@ title: About Tom Crayford
 layout: master
 ---
 
-h2. About Tom Crayford
+h2. About Me
 
 Follow me on twitter "here":http://twitter.com/crazzyford
 
