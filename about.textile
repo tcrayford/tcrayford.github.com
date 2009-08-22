@@ -1,11 +1,11 @@
 ---
 title: About
-layout: master
+layout: post
 ---
 
 h2. About Me
 
-Hi. My name is Tom Crayford. I will be studying software engineering at "Sheffield University":http://shef.ac.uk. I am interested in computers, writing and user interface design.
+Hi. My name is Tom Crayford. I will be studying Software Engineering at "Sheffield University":http://shef.ac.uk. I am interested in computers, writing and user interface design.
 Follow me on twitter "here":http://twitter.com/crazzyford
 My amazon wish list is "here":http://www.amazon.co.uk/gp/registry/registry.html/ref=w_h_em-si-html_viewall?id=A6IUYIDY68VB
 
