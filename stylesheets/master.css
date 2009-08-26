@@ -57,19 +57,15 @@ a:visited {
 	font-size: 1.5em;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
-	margin: 0px;
 }
 
 #menu a {
-	padding: 2em;
 	color: #4356b2;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
-	margin: 0px;
 }
 
 #content {
-  padding: 2em;
 }
 
 #content h2 {
