@@ -75,6 +75,7 @@ a:visited {
 }
 
 #content p {
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 140%;
   letter-spacing: -0.03em;
 }
