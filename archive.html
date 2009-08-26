@@ -3,7 +3,7 @@ layout: master
 title: Archive
 full_posts: 0
 ---
-
+<div class='content'>
 {% for post in site.posts %}
   {% if forloop.index < page.full_posts %}
   <div class='post'>
@@ -23,3 +23,4 @@ full_posts: 0
   {% endif %}
 {% endfor %}
 </table>
+</div>
