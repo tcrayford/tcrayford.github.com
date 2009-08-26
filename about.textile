@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: post
 ---
 
 h2 About Me
