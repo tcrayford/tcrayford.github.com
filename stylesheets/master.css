@@ -25,9 +25,10 @@ a:visited {
 }
 
 #header {
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-color: #2c2c2c;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  color: black;
   line-height: 100px;
   text-transform: uppercase;
   text-align: left;
