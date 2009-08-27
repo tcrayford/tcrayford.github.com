@@ -54,6 +54,8 @@ a:visited {
 }
 
 #menu {
+	margin-right: auto;
+	position: relative;
 	font-size: 1em;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
