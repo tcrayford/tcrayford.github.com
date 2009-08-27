@@ -25,6 +25,7 @@ a:visited {
 }
 
 #header {
+  background-color: #2c2c2c;
   line-height: 2em;
   text-transform: lowercase;
   text-align: left;
