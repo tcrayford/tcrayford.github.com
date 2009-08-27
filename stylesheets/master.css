@@ -236,4 +236,4 @@ code {
 
 a img { border: 0; }
 
-#blogtitle { margin-left: auto; font-family: Georgia, "Times New Roman", Times, serif; }
+#blogtitle { margin-left: auto; font-family: Georgia, "Times New Roman", Times, serif; float: left;}
