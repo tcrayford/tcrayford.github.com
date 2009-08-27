@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #3c4fca;
+  color: #666666;
   font-weight: bold;
 }
 
@@ -16,12 +16,6 @@ a:visited {
 }
 
 #wrapper {
-  border-right-color: black;
-  border-left-color: black;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-left-width: 1px;
-  border-left-style: solid;
   width: 50em;
   margin: 2em auto 0;
   padding: 0;
@@ -60,7 +54,7 @@ a:visited {
 }
 
 #menu {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
 }
