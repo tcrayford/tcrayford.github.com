@@ -25,6 +25,7 @@ a:visited {
 }
 
 #header {
+  background-repeat: no-repeat;
   background-position: left top;
   background-color: #2c2c2c;
   line-height: 100px;
