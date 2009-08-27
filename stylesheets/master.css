@@ -25,6 +25,7 @@ a:visited {
 }
 
 #header {
+  line-height: 2em;
   text-transform: lowercase;
   text-align: left;
   -moz-border-radius-topleft: 1em;
@@ -32,8 +33,7 @@ a:visited {
   -moz-border-radius-topright: 1em;
   -webkit-border-top-right-radius: 1em;  
   border-top-left-radius: 1em;  
-  border-top-right-radius: 1em;  
-  padding: 1.5em;
+  border-top-right-radius: 1em;
   text-align: center;
 }
 
