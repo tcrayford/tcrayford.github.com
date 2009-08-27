@@ -25,13 +25,16 @@ a:visited {
 }
 
 #header {
+  border-top-color: black;
+  border-top-width: 1px;
+  border-top-style: solid;
   margin-bottom: 20px;
   margin-top: 0px;
   position: relative;
   border-bottom-color: black;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  margin-right: auto;
+  margin-right: 0px;
   margin-left: 30px;
   background-color: black;
   line-height: 100px;
