@@ -1,8 +1,8 @@
 body {
   font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   letter-spacing: -0.05em;
-  background: #eaeaea;
-  color: #353B40;
+  background: #fcfcfc;
+  color: black;
 }
 
 #content a {
@@ -16,7 +16,9 @@ body {
 }
 
 #header {
-  height: 30px;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: 2em;
+  height: 50px;
   clear: both;
   position: relative;
   border-bottom-color: black;
@@ -24,6 +26,7 @@ body {
   border-bottom-style: solid;
   text-transform: uppercase;
   text-align: left;
+  text-decoration: none;
 }
 
 #blogtitle { font-family: Georgia, "Times New Roman", Times, serif; float: left;}#header h1 {
@@ -40,40 +43,43 @@ body {
   font-size: 2em;
   font-weight: normal;
   color: #fed;
+  text-decoration: none;
 }
 
 #menu {
 	float: right;
 	margin-right: auto;
 	position: relative;
-	font-size: 1em;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
 }
 
 #header a {
-	color: #676767;
+	color: black;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
+    text-decoration: none;
 }
 
 #header a:visited {
-	color: #676767;
+	color: black;
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	display: inline;
 }
 
 #content {
+	padding-right: 30px;
+	padding-left: 30px;
 	padding-top: 10px;
 }
 
 #content h2 {
   margin: 0 0 0.5em 0;
-  color: black;
   font-size: 2em;
 }
 
 #content p {
+  font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 140%;
   letter-spacing: -0.03em;
@@ -89,6 +95,7 @@ body {
 }
 
 .post h1 a {
+  font-size: 30px;
   border-bottom-color: #666666;
   border-bottom-style: solid;
   font-family: "Lucida Grande", Verdana, Arial, sans-serif;
