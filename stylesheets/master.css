@@ -1,5 +1,4 @@
 body {
-  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   letter-spacing: -0.05em;
   background: #fcfcfc;
   color: black;
@@ -24,12 +23,11 @@ body {
   border-bottom-color: black;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  text-transform: uppercase;
   text-align: left;
   text-decoration: none;
 }
 
-#blogtitle { font-family: Georgia, "Times New Roman", Times, serif; float: left;}#header h1 {
+#blogtitle { font-variant: small-caps; font-family: Georgia, "Times New Roman", Times, serif; float: left;}#header h1 {
   font-size: 4em;
   display: inline;
   letter-spacing: -0.08em;
@@ -47,6 +45,9 @@ body {
 }
 
 #menu {
+	word-spacing: 20px;
+	margin-top: 20px;
+	font-size: 0.5em;
 	float: right;
 	margin-right: auto;
 	position: relative;
@@ -126,19 +127,20 @@ div.post {
 }
 
 pre {
+  border-left-color: black;
+  border-left-width: 1px;
   background: #f8f8f8;
-  border: 1px solid #E7E5DC;
-  border-width: 1px 0 4px 6px;
   padding: 1em;
   overflow: auto;
   color: black;
   line-height: 120%;
-  font-family: "Consolas","Courier New",Courier,monospace;
+  font-family: "Consolas", Inconsolata, Courier, monospace;
   font-size: 12px;
   letter-spacing: 0;
 }
 
 table.post-list {
+  padding-top: 0.5em;
   width: 100%;
   border-collapse: collapse;
 }
@@ -153,8 +155,9 @@ table.post-list th {
 }
 
 table.post-list td, table.post-list th {
+  border-bottom-width: 10px;
   padding: 0.5em 0.3em;
-  border-bottom: 1px solid #dba;
+  border-bottom: solid #dba;
 }
 
 table.post-list tr:last-child td, table.post-list tr:last-child th {
@@ -205,7 +208,7 @@ div.related {
 }
 
 code {
-  background: #fff5dd;
+  background: #f2f2f2;
   font-size: 14px;
   font-family: "Consolas","Courier New",Courier,monospace;
 }
