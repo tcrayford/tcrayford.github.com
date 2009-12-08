@@ -13,7 +13,7 @@ To get started, install watchr
 
 and run the script in the home directory for your Leiningen-backed clojure project.
 
-   watchr /path/to/script
+    watchr /path/to/script
 
 The script also does some (very basic) red/green colouring of outputs using zsh color codes.
 
