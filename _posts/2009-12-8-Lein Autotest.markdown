@@ -18,4 +18,4 @@ and run the script in the home directory for your Leiningen-backed clojure proje
 The script also does some (very basic) red/green colouring of outputs using zsh color codes.
 
 Sample output:
-![Sample output](http://tcrayford.net/files/lein-autotest.png "sample output")
+![Sample output](http://www.tcrayford.net/files/lein-autotest.png "sample output")
