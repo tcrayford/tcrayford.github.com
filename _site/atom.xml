@@ -4,7 +4,7 @@
  <title>Tom Crayford</title>
  <link href="http://tcrayford.github.com/atom.xml" rel="self"/>
  <link href="http://tcrayford.github.com/"/>
- <updated>2009-12-18T17:13:04+00:00</updated>
+ <updated>2009-12-18T18:34:37+00:00</updated>
  <id>http://tcrayford.github.com/</id>
  <author>
    <name>Tom Crayford</name>
@@ -17,9 +17,9 @@
    <link href="http://tcrayford.github.com/2009/12/08/Lein-Autotest.html"/>
    <updated>2009-12-08T00:00:00+00:00</updated>
    <id>http://tcrayford.github.com/2009/12/08/Lein-Autotest</id>
-   <content type="html">&lt;p&gt;I&amp;#8217;ve been doing a lot of testing for a clojure side project recently, and got envious of Ruby people having nice tools. In particular I liked the coloured output and automatic test running from &lt;a href='http://github.com/rubyphunk/rspactor' title='rspactor'&gt;rspactor&lt;/a&gt;. I wanted to emulate this for my project, so did some digging around.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I&amp;#8217;ve been doing a lot of testing for a clojure side project recently, and got envious of Ruby people having nice tools. In particular I liked the coloured output and automatic test running from &lt;a href='http://github.com/rubyphunk/rspactor' title='rspactor'&gt;rspactor&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I found &lt;a href='http://github.com/mynyml/watchr' title='watchr'&gt;watchr&lt;/a&gt;. I came up with &lt;a href='http://gist.github.com/251881' title='watchr script'&gt;this script&lt;/a&gt;, which simply watches for changes to .clj files in &lt;code&gt;/src&lt;/code&gt; and &lt;code&gt;/test&lt;/code&gt; and runs &lt;code&gt;lein test&lt;/code&gt; in the shell window.&lt;/p&gt;
+&lt;p&gt;I found &lt;a href='http://github.com/mynyml/watchr' title='watchr'&gt;watchr&lt;/a&gt; and came up with &lt;a href='http://gist.github.com/251881' title='watchr script'&gt;this script&lt;/a&gt;, which simply watches for changes to .clj files in &lt;code&gt;/src&lt;/code&gt; and &lt;code&gt;/test&lt;/code&gt; and runs &lt;code&gt;lein test&lt;/code&gt; in the shell window.&lt;/p&gt;
 
 &lt;p&gt;To get started, install watchr&lt;/p&gt;
 
