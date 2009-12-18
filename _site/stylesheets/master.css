@@ -1,6 +1,5 @@
 body {
   letter-spacing: -0.05em;
-  background: #fcfcfc;
   color: black;
 }
 
@@ -20,14 +19,19 @@ body {
   height: 50px;
   clear: both;
   position: relative;
-  border-bottom-color: black;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
   text-align: left;
   text-decoration: none;
 }
 
-#blogtitle { font-variant: small-caps; font-family: Georgia, "Times New Roman", Times, serif; float: left;}#header h1 {
+#blogtitle { 
+  float: left;
+  color:red;
+}
+
+#blogtitle a {
+  color:black
+}
+#header h1 {
   font-size: 4em;
   display: inline;
   letter-spacing: -0.08em;
@@ -45,33 +49,33 @@ body {
 }
 
 #menu {
-	word-spacing: 20px;
-	margin-top: 20px;
-	font-size: 0.5em;
-	float: right;
-	margin-right: auto;
-	position: relative;
-	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-	display: inline;
+  word-spacing: 20px;
+  margin-top: 20px;
+  font-size: 0.5em;
+  float: right;
+  margin-right: auto;
+  position: relative;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  display: inline;
 }
 
 #header a {
-	color: black;
-	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-	display: inline;
-    text-decoration: none;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  display: inline;
+  text-decoration: none;
 }
 
 #header a:visited {
-	color: black;
-	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-	display: inline;
+  color: black;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  display: inline;
 }
 
 #content {
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 #content h2 {
