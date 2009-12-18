@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>tcrayford </title>
+    <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" media="screen" charset="utf-8"/>
+    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <link rel='alternate' type='application/rss+xml' href='http://feeds2.feedburner.com/tcrayford' />
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='header'>
+        <div id='blogtitle'>t<a href='/'>crayford</a></div>
+        <div id='menu'>
+          <a href='/archive.html'>Archive</a>
+          <a href='/about.html'>About</a>
+        </div>
+      </div>
+      <div id='content'>
+        <div class='post'>
+  <h1><a href=''>Variable Arity</a></h1>
+  <div class='body'><p>Arity refers to the number of arguments a function takes. Clojure and Java both have instances where they use variable arity, specifically different implimentations of a function depending on the number of arguments passed to said function. One place most java programmers know about this is in chaining constructors:</p>
+
+<pre><code>public Sketch () {
+  this(&quot;Tom&quot;,1000);
+}
+
+public Sketch (String username, int badDrawingLevel) {
+  this.username = username;
+  this.badDrawingLevel = badDrawingLevel;
+}</code></pre>
+
+<p>Note that the first constructor takes no arguments, and calls the second constructor with the arguments filled in.</p>
+
+<p>Clojure takes an approach that functions can have different implimentation depending on the number of arguments they are passed. This is often used (as in the Java example) to set some defaults up before running a more specific version of the function.</p>
+
+<pre><code>(defn read-project
+  ([file] (load-file file)
+     project)
+  ([] (read-project &quot;project.clj&quot;)))</code></pre>
+
+<p>(Code taken from <a href='http://github.com/technomancy/leiningen/blob/master/src/leiningen/core.clj'>leiningen</a>)</p>
+
+<p>Python has default parameters for its functions, like so:</p>
+
+<pre><code>def Sketch(name=&quot;Tom&quot;,bad_drawing_level=1000):
+  pass</code></pre>
+
+<p>I find the python method for default parameters far easier on the eye than the clojure method. Although the clojure method has more power, it trades this for readability (when using variable arity for default arguments).</p></div>
+</div>
+        <div class='clearfix'></div>
+      </div>
+
+      <div id='footer'>
+        © 2009 Tom Crayford. Some rights reserved
+      </div>
+    </div>
+  </body>
+  <!-- Start of StatCounter Code -->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-6473410-2");
+      pageTracker._trackPageview();
+    } catch(err) {}</script>
+</html>
