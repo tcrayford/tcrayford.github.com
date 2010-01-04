@@ -1,25 +1,46 @@
 body {
   letter-spacing: -0.05em;
   color: black;
+  background:solid white;
+  padding:0px;
+  margin:0px;
 }
 
 #content a {
-  color: black;
-  font-weight: bold;
+  color: #3366a5;
   text-decoration:none;
-  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
-  font-size:0.9em;
 }
 
-# content a:visited {
-  color: black;
-  font-weight: normal;
+#content h1 a {
+  color:black;
+  font-weight:normal;
+  text-align:center;
+  text-decoration:none;
+}
+
+#content h1 a:visited {
+  color:black;
+}
+
+#content a:visited {
+  color: #99bbfa;
+}
+
+#content a:hover {
+  text-decoration:underline;
+}
+
+#content h2 {
+  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+  font-weight:normal;
 }
 
 #header {
-  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-  font-size: 2em;
-  height: 50px;
+  border-bottom-color: #cccccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 1em;
+  height: 30px;
   clear: both;
   position: relative;
   text-align: left;
@@ -28,46 +49,50 @@ body {
 
 #blogtitle { 
   float: left;
-  color:red;
+  color:#aa0000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:1.1em;
 }
 
+#blogtitle a {
+  color:black;
+}
+
+#blogtitle a:visited {
+  color:black;
+}
 
 #menu {
   word-spacing: 20px;
-  margin-top: 20px;
-  font-size: 0.5em;
   float: right;
   margin-right: auto;
+  margin-top:4px;
   position: relative;
   font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   display: inline;
+  font-size:0.8em;
+  color:#333;
+}
+
+#menu a {
+  color:#333;
+}
+
+#menu a:visited {
+  color:grey;
 }
 
 #header a {
-  color: black;
-  font-family: "Lucida Grande",Helvetica, Verdana, Arial, sans-serif;
-  display: inline;
   text-decoration: none;
-}
-
-#header a:visited {
-  color: black;
-  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-  display: inline;
 }
 
 #content {
   padding-top: 10px;
 }
 
-#content h2 {
-  margin: 0 0 0.5em 0;
-  font-size: 2em;
-}
 
 #content p {
   font-size: 16px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 140%;
   letter-spacing: -0.03em;
 }
@@ -76,9 +101,10 @@ body {
   bottom: 0px;
   position: relative;
   top: 0px;
-  width: 900px;
+  width: 600px;
   margin: 0 auto;
   padding: 50px;
+  padding-top:10px;
 }
 
 .post h1 a {
@@ -143,10 +169,6 @@ table.post-list tr:last-child td, table.post-list tr:last-child th {
   border-bottom: 0;
 }
 
-div.related {
-  margin-bottom: 2em;
-}
-
 #footer {
   margin-bottom: 2em;
   color: #727272;
@@ -160,39 +182,6 @@ div.related {
   color: #4555b2;
   font-weight: normal;
 }
-
-
-
-.repo {
-  background: #fff5cc;
-  border: 2px solid #dba;
-  padding: 0.7em 1em;
-  font-size: 0.8em;
-  letter-spacing: -0.03em;
-  margin: 1em 1em 0 0;
-  -moz-border-radius: 0.5em;
-  -webkit-border-radius: 0.5em;
-  border-radius: 0.5em;
-}
-.repo h3 {
-  margin: 0 0 0.3em 0;
-}
-.repo h3 a {
-  font-weight: bold;
-  color: black;
-  letter-spacing: 0;
-  font-size: 1.1em;
-}
-
-#github-projects.big .repo {
-  float: left;
-  width: 25.2em;
-  margin: 1.2em 1em 0 0;
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
 .float-left { float: left; }
 .float-right { float: right; }
 
