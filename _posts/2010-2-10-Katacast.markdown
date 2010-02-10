@@ -29,5 +29,4 @@ href="http://vimeo.com/9350864">String Calculator Kata</a> from <a
 href="http://vimeo.com/user2764669">Tom Crayford</a> on <a
 href="http://vimeo.com">Vimeo</a>.</p>
 
-If you have any feedback, disqus should be enabled, or leave a comment
-at the katacasts site.
+If you have any feedback, leave a comment at the katacasts site.
