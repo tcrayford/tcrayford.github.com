@@ -28,4 +28,5 @@ height="300"></embed></object>
 [String Calculator Kata](http://vimeo.com/9350864) from
 [Tom Crayford](http://vimeo.com/user2764669) on vimeo.
 
-If you have any feedback, leave a comment at the katacasts site.
+If you have any feedback, leave a comment at the katacasts site, or
+message [me on twitter](http://twitter.com/t_crayford)
