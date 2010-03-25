@@ -6,7 +6,7 @@ title:  Syllabus Review
 Keeping my student life well organised has been a major part of my life this
 year, especially as my workload for University (college to all you US folk) has
 increased. I was delighted to hear of an application designed specifically to
-help students with this task. Syllabus aims to help students stay organised, by
+help students with this task. [Syllabus](http://www.randomaccident.com/products/syllabus/syllabus.html) aims to help students stay organised, by
 collecting functionality that was spread over several apps into one.
 
 The major plus point for Syllabus (for non-techie students) is that it hides
