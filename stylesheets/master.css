@@ -1,7 +1,7 @@
 body {
   letter-spacing: -0.05em;
   color: black;
-  background:solid white;
+  background: #fafafa;
   padding:0px;
   margin:0px;
 }
@@ -11,11 +11,18 @@ body {
   text-decoration:none;
 }
 
+.body {
+  float: left;
+  width: 60%;
+  color: #666;
+}
+
 #content h1 a {
   color:black;
   font-weight:normal;
-  text-align:center;
   text-decoration:none;
+  float: right;
+  width: 30%;
 }
 
 #content h1 a:visited {
@@ -33,16 +40,16 @@ body {
 #content h2 {
   font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   font-weight:normal;
+  color: black;
 }
 
 #header {
-  border-bottom-color: #cccccc;
+  border-bottom-color: #fafafa;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 4px;
   font-size: 1em;
   height: 30px;
-  clear: both;
-  position: relative;
+  width: 100%
   text-align: left;
   text-decoration: none;
 }
@@ -101,14 +108,15 @@ body {
   bottom: 0px;
   position: relative;
   top: 0px;
-  width: 600px;
+  width: 80%;
   margin: 0 auto;
   padding: 50px;
   padding-top:10px;
+  background: white;
 }
 
 .post h1 a {
-  font-size: 35px;
+  font-size: 1em;
   font-family: "Lucida Grande", Verdana, Arial, sans-serif;
   text-decoration: none;
   clear: left;
@@ -128,11 +136,6 @@ span.date {
 div.post {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 2em;
-}
-
-.post h1 {
-  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
-  margin-top: 0.2em;
 }
 
 pre, code {
@@ -173,7 +176,7 @@ table.post-list tr:last-child td, table.post-list tr:last-child th {
 #footer {
   margin-bottom: 2em;
   color: #727272;
-  font-size: 0.3em;
+  font-size: .8em;
   text-align: center;
 }
 
@@ -187,4 +190,3 @@ table.post-list tr:last-child td, table.post-list tr:last-child th {
 .float-right { float: right; }
 
 a img { border: 0; }
-

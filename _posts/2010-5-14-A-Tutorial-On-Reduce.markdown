@@ -14,7 +14,6 @@ in Haskell.
 The paper starts out by demonstrating that some standard list
 processing functions can be written using reduce:
 
-
     (defn my-count [coll]
       (reduce (fn [n x] (inc n)) 0 coll))
 
