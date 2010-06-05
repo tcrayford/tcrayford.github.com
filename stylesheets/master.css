@@ -1,7 +1,7 @@
 body {
   letter-spacing: -0.05em;
   color: black;
-  background: #fafafa;
+  background: #607281;
   padding:0px;
   margin:0px;
 }
@@ -12,18 +12,18 @@ body {
 }
 
 .body {
-  float: left;
-  width: 60%;
-  color: #666;
+  width: 95%;
+  margin: auto;
+  color: #353E34;
 }
 
 #content h1 a {
-  color:black;
+  width: 85%;
+  color: rgba(0,0,0,0.5);
   font-weight:bold;
   text-decoration:none;
-  float: right;
-  width: 35%;
-  text-align: right;
+  text-align: left;
+  margin-left: 0.7em;
 }
 
 #content h1 a:visited {
@@ -45,12 +45,13 @@ body {
 }
 
 #header {
-  border-bottom-color: #fafafa;
-  border-bottom-style: solid;
-  border-bottom-width: 4px;
+  border-bottom-color: #666;
+  border-bottom-style: groove;
+  border-bottom-width: 1px;
   font-size: 1em;
-  height: 30px;
-  width: 100%
+  width: 95%;
+  margin: auto;
+  height: 50px;
   text-align: left;
   text-decoration: none;
 }
@@ -59,11 +60,13 @@ body {
   float: left;
   color:#aa0000;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size:1.1em;
+  font-size:2.1em;
+  font-weight: bold;
 }
 
 #blogtitle a {
   color:black;
+  font-weight: normal;
 }
 
 #blogtitle a:visited {
@@ -74,11 +77,10 @@ body {
   word-spacing: 20px;
   float: right;
   margin-right: auto;
-  margin-top:4px;
+  margin-top: 15px;
   position: relative;
-  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   display: inline;
-  font-size:0.8em;
+  font-size:1em;
   color:#333;
 }
 
@@ -87,7 +89,7 @@ body {
 }
 
 #menu a:visited {
-  color:grey;
+  color:#333;
 }
 
 #header a {
@@ -97,7 +99,6 @@ body {
 #content {
   padding-top: 10px;
 }
-
 
 #content p {
   font-size: 16px;
@@ -114,6 +115,8 @@ body {
   padding: 50px;
   padding-top:10px;
   background: white;
+  border-left: 1px solid rgba(0,0,0,.8);
+  border-right: 1px solid rgba(0,0,0,.8);
 }
 
 .post h1 a {
@@ -135,7 +138,6 @@ span.date {
 }
 
 div.post {
-  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 2em;
 }
 
