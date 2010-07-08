@@ -2,9 +2,8 @@
 layout: post
 title: First day at Eden
 ---
-I've just finished my first day as an apprentice at [EDEN]. As an exercise for
-the first day, Enrique (my mentor) had me going through the Ruby Koans [LINK],
-which were pleasantly surprising.
+I've just finished my first day as an apprentice at [Eden](edendevelopment.co.uk/). As an exercise for
+the first day, Enrique (my mentor) had me going through the [Ruby Koans](http://github.com/edgecase/ruby_koans), which were pleasantly surprising.
 
 As a further add on to this, Enrique added the rule of not having any method
 longer than 4 lines. I first saw an idea like this whilst reading Clean Code
@@ -30,5 +29,5 @@ After I discovered this, the problem was easy to solve (and the code was cleaner
 
 Annendum
 ---
-Learn to type week (as suggested by Corey[http://programmingtour.blogspot.com/2010/07/learn-to-type-week.html])
+Learn to type week (as suggested by [Corey](http://programmingtour.blogspot.com/2010/07/learn-to-type-week.html))
 is next week, and I'll definitely be taking part in it.
