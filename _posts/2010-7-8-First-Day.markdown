@@ -2,7 +2,7 @@
 layout: post
 title: First day at Eden
 ---
-I've just finished my first day as an apprentice at [Eden](edendevelopment.co.uk/). As an exercise for
+I've just finished my first day as an apprentice at [Eden](http://edendevelopment.co.uk/). As an exercise for
 the first day, Enrique (my mentor) had me going through the [Ruby Koans](http://github.com/edgecase/ruby_koans), which were pleasantly surprising.
 
 As a further add on to this, Enrique added the rule of not having any method

@@ -23,7 +23,7 @@ framework, so that I can clean up the tests on my third day. I wrote this (from
 memory), based on Kent Beck's example from [TDD by
 example](http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 There's also a tiny mocking thing, based on
-[Dingus](bitbucket.org/garybernhardt/dingus/), which I am using for testing
+[Dingus](http://bitbucket.org/garybernhardt/dingus/), which I am using for testing
 servlets.
 
 After writing these two to help me organise the tests, I'm think the rest of
