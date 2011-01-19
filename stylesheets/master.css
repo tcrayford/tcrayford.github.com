@@ -1,7 +1,7 @@
 body {
   letter-spacing: -0.05em;
   color: black;
-  background: #607281;
+  background: #bdbdbd;
   padding:0px;
   margin:0px;
 }
@@ -19,11 +19,11 @@ body {
 
 #content h1 a {
   width: 85%;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.8);
   font-weight:bold;
   text-decoration:none;
-  text-align: left;
-  margin-left: 0.7em;
+  text-align: center;
+  margin:auto;
 }
 
 #content h1 a:visited {
@@ -58,19 +58,19 @@ body {
 
 #blogtitle { 
   float: left;
-  color:#aa0000;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #dd0000;
+  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   font-size:2.1em;
   font-weight: bold;
 }
 
 #blogtitle a {
-  color:black;
-  font-weight: normal;
+  font-weight: bold;
+  color:#666;
 }
 
 #blogtitle a:visited {
-  color:black;
+  color:#666;
 }
 
 #menu {
@@ -110,7 +110,8 @@ body {
   bottom: 0px;
   position: relative;
   top: 0px;
-  width: 80%;
+  width: 620px;
+  height: 100%;
   margin: 0 auto;
   padding: 50px;
   padding-top:10px;
