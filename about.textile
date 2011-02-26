@@ -5,8 +5,9 @@ layout: about
 
 h2. About Me
 
-Hi. My name is Tom Crayford. I am studying Software Engineering at "Sheffield University":http://shef.ac.uk. I am interested in computers, writing and user interface design.
-Follow me on twitter "here":http://twitter.com/crazzyford
+Hi. My name is Tom Crayford. I am studying Software Engineering at "Sheffield University":http://shef.ac.uk. I am interested in modular software design, clean code and isolated unit testing.
+I use Ruby, Clojure, Haskell and Javascript, alongisde git, vim and other unix tools.
+Follow me on twitter "here":http://twitter.com/t_crayford
 
 h2. About This Site
 
