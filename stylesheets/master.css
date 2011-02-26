@@ -160,19 +160,29 @@ table.post-list {
   border-collapse: collapse;
 }
 
-table.post-list a {
-  color: #787878;
+#content table.post-list a {
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  color: black;
   font-weight: bold;
 }
 
-table.post-list th {
+#content table.post-list tbody tr th a:visited {
+  color: black;
+  font-weight: bold;
+}
+
+#content table.post-list a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+table.post-list tr {
   text-align: left;
+  border-color: none;
 }
 
 table.post-list td, table.post-list th {
-  border-bottom-width: 10px;
-  padding: 0.5em 0.3em;
-  border-bottom: solid #dba;
+  padding: 1em 0.3em;
 }
 
 table.post-list tr:last-child td, table.post-list tr:last-child th {
