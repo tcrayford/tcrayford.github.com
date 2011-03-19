@@ -19,7 +19,7 @@ Enter Values
 ------------
 The problems with Struct looked pretty easy to solve with metaprogramming in ruby. So, I created a library for working with value objects as I want to: [Values](https://github.com/tcrayford/Values).
 
-Values is used exactly the same way you use Struct:
+Values is used roughly the same way you use Struct (it doesn't have all the features though):
 
     Point = Value.new(:x,:y)
     p = Point.new(1,0)
