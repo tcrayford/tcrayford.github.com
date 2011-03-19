@@ -1,0 +1,50 @@
+---
+layout: post
+title:  Value objects in Ruby (or why does Ruby love nil so much)
+---
+
+In the [latest Destroy All Software screencast](https://www.destroyallsoftware.com/screencasts/catalog/extracting-domain-objects) \[1\], Gary Bernhardt uses a Struct to represent a [value object](http://c2.com/cgi/wiki?ValueObject). There are a couple of problems with doing this, because of the way Structs are implemented.
+
+Structs can be used to create a simple object that just holds values in named fields. However, the constructor can take less than the default number of arguments and set other fields as nil:
+
+    Point = Struct.new(:x,:y)
+    Point.new(1)
+    => #<struct Point x=1, y=nil>
+
+This can lead to accidental nils floating around your system, as well as you creating a value object with weird semantics. In this case, having a point without a y value probably doesn't make any sense.
+
+Furthermore, objects created by Struct are mutable. As a long time proponent of immutability wherever possible, I dislike this.
+
+Enter Values
+------------
+The problems with Struct looked pretty easy to solve with metaprogramming in ruby. So, I created a library for working with value objects as I want to: [Values](https://github.com/tcrayford/Values).
+
+Values is used exactly the same way you use Struct:
+
+    Point = Value.new(:x,:y)
+    p = Point.new(1,0)
+    `=> #<Point:0x00000100943788 @x=0, @y=1>`
+
+But they aren't mutable:
+
+    p.x = 1
+    => NoMethodError: undefined method x= for #<Point:0x00000100943788 @x=0, @y=1>
+    from (irb):6
+    from /usr/local/bin/irb:12:in <main>
+
+They also can't accidentally add nil into the constructor:
+
+    Point.new(1)
+    => ArgumentError: wrong number of arguments, 1 for 2
+    from /Users/tcrayford/Projects/ruby/values/lib/values.rb:7:in `block (2 levels) in new
+    from (irb):5:in new
+    from (irb):5
+    from /usr/local/bin/irb:12:in `<main>
+
+This library is really tiny (17 lines at the moment), and is has a good number of examples. Its probably not worth using unless you have quite a few dumb value objects in your system (as its effects can be easily replicated with plain ruby classes).
+
+Notes
+---
+\[1\] Destroy All Software is a screencast series that teaches programmers about design, unix and dynamic languages. Highly reccomended. 
+
+For reasons why nil is bad, see the [example screencast](https://www.destroyallsoftware.com/screencasts/catalog/how-and-why-to-avoid-nil) there.
