@@ -1,9 +1,11 @@
 body {
   letter-spacing: -0.05em;
   color: black;
-  background: #bdbdbd;
   padding:0px;
   margin:0px;
+  background-image: url(/images/background.png);
+  background-repeat: repeat;
+  background-color: #bdbdbd;
 }
 
 #content a {
