@@ -121,6 +121,15 @@ p.date {
   margin-bottom: 30px;
 }
 
+#content span.footnote {
+  display: inline;
+  margin-bottom: 0px;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  vertical-align: super;
+}
+
 #wrapper {
   bottom: 0px;
   position: relative;

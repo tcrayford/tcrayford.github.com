@@ -3,7 +3,7 @@ layout: post
 title:  Value objects in Ruby (or why does Ruby love nil so much)
 ---
 
-In the [latest Destroy All Software screencast](https://www.destroyallsoftware.com/screencasts/catalog/extracting-domain-objects) \[1\], Gary Bernhardt uses a Struct to represent a [value object](http://c2.com/cgi/wiki?ValueObject). There are a couple of problems with doing this, because of the way Structs are implemented.
+In the [latest Destroy All Software screencast](https://www.destroyallsoftware.com/screencasts/catalog/extracting-domain-objects) <a href='#footnotes'><span class='footnote'>[1]</span></a>, Gary Bernhardt uses a Struct to represent a [value object](http://c2.com/cgi/wiki?ValueObject). There are a couple of problems with doing this, because of the way Structs are implemented.
 
 Structs can be used to create a simple object that just holds values in named fields. However, the constructor can take less than the default number of arguments and set other fields as nil:
 
@@ -43,8 +43,9 @@ They also can't accidentally add nil into the constructor:
 
 This library is really tiny (17 lines at the moment), and is has a good number of examples. Its probably not worth using unless you have quite a few dumb value objects in your system (as its effects can be easily replicated with plain ruby classes).
 
-Notes
----
-\[1\] Destroy All Software is a screencast series that teaches programmers about design, unix and dynamic languages. Highly reccomended. 
+<div id='footnotes'><h2>Notes</h2>
+<p><strong>[1]</strong>
+Destroy All Software is a screencast series that teaches programmers about software design, UNIX and dynamic languages. Highly reccomended.</p>
 
-For reasons why nil is bad, see the [example screencast](https://www.destroyallsoftware.com/screencasts/catalog/how-and-why-to-avoid-nil) there.
+<p>For reasons why nil is bad, see the <a href='https://www.destroyallsoftware.com/screencasts/catalog/how-and-why-to-avoid-nil'>example screencast</a> there.</p>
+</div>
