@@ -2,11 +2,10 @@
 layout: master
 ---
 
-<div class='home_box' id='home_left'>
-  <div class='post'>
-    <h1><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
-    <div class='body'>{{ site.posts.first.content }}</div>
-  </div>
+<div class='post'>
+<h1><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
+<p class='date'>{{ site.posts.first.date | date_to_string }}</p>
+<div class='body'>{{ site.posts.first.content }}</div>
 </div>
 
 

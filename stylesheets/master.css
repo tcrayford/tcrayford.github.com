@@ -5,6 +5,15 @@ body {
   background-image: url(/images/background.png);
   background-repeat: repeat;
   background-color: #bdbdbd;
+  font-family: "adelle-1","adelle-2", serif;
+}
+
+p.date {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #999;
 }
 
 #content a {
@@ -42,10 +51,9 @@ body {
 
 #content h2 {
   font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
-  font-weight: normal;
-  color: black;
-  font-size: 3em;
-  text-decoration: underline;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.5em;
 }
 
 #header {
@@ -58,34 +66,36 @@ body {
   height: 50px;
   text-align: left;
   text-decoration: none;
+  font-family: "adelle-1","adelle-2", serif;
 }
 
 #blogtitle { 
   float: left;
   color: #dd0000;
-  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
-  font-size:2.1em;
+  font-family: "Helvetica-Neue","Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 2.1em;
   font-weight: bold;
 }
 
 #blogtitle a {
   font-weight: bold;
-  color:#666;
+  color:#000;
 }
 
 #blogtitle a:visited {
-  color:#666;
+  color: #444;
 }
 
 #menu {
   word-spacing: 20px;
   float: right;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 20px;
   position: relative;
   display: inline;
   font-size:1em;
-  color:#333;
+  color:#444;
 }
 
 #menu a {
