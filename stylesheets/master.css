@@ -16,7 +16,10 @@ body {
 .body {
   width: 95%;
   margin: auto;
-  color: #353E34;
+  /*color: #353E34;*/
+  color: #444;
+  font-family: "adelle-1","adelle-2", serif;
+  font-size: 0.5em;
 }
 
 #content h1 a {
@@ -42,8 +45,10 @@ body {
 
 #content h2 {
   font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
-  font-weight:normal;
+  font-weight: normal;
   color: black;
+  font-size: 3em;
+  text-decoration: underline;
 }
 
 #header {
@@ -103,7 +108,7 @@ body {
 }
 
 #content p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 200%;
   text-rendering: optimizelegibility;
   margin-bottom: 30px;
@@ -146,14 +151,19 @@ div.post {
   margin-bottom: 2em;
 }
 
+pre {
+  padding: 10px;
+  background-color: rgba(0,0,0,.1);
+  border: 1px solid #ccc;
+}
+
 pre, code {
   overflow: auto;
   color: black;
   line-height: 120%;
+  font-size: 18px;
   font-family: Consolas, Inconsolata, Courier, monospace;
   letter-spacing: 0;
-  background-color: #dddddd;
-  padding:1px;
 }
 
 table.post-list {
