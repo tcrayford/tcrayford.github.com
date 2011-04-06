@@ -1,5 +1,4 @@
 body {
-  letter-spacing: -0.05em;
   color: black;
   padding:0px;
   margin:0px;
@@ -16,10 +15,8 @@ body {
 .body {
   width: 95%;
   margin: auto;
-  /*color: #353E34;*/
   color: #444;
   font-family: "adelle-1","adelle-2", serif;
-  font-size: 0.5em;
 }
 
 #content h1 a {
