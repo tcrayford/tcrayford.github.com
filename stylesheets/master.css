@@ -32,9 +32,19 @@ p.date {
   width: 85%;
   color: rgba(0,0,0,0.8);
   font-weight:bold;
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
-  margin:auto;
+  margin: auto;
+}
+
+h3.subtitle{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  color: rgba(0,0,0,0.4);
+  font-family: "adelle-1","adelle-2", serif;
+  font-size: 0.9em;
+  margin-bottom: 20px;
 }
 
 #content h1 a:visited {
@@ -50,7 +60,7 @@ p.date {
 }
 
 #content h2 {
-  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+  font-family: "museo-slab-1","museo-slab-2","Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   font-weight: bold;
   color: #333;
   font-size: 1.5em;
@@ -72,7 +82,7 @@ p.date {
 #blogtitle { 
   float: left;
   color: #dd0000;
-  font-family: "Helvetica-Neue","Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+  font-family: "museo-slab-1","museo-slab-2","Helvetica-Neue","Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
   font-weight: lighter;
   font-size: 2.1em;
   font-weight: bold;
@@ -147,7 +157,7 @@ p.date {
 
 .post h1 a {
   font-size: 1em;
-  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  font-family: "museo-slab-1", "museo-slab-2", "Lucida Grande", Verdana, Arial, sans-serif;
   text-decoration: none;
   clear: left;
   display: block;

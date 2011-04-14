@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Value objects in Ruby (or why does Ruby love nil so much)
+title:  Value objects in Ruby
+subtitle: (or why does Ruby love nil so much)
 ---
 
 In the [latest Destroy All Software screencast](https://www.destroyallsoftware.com/screencasts/catalog/extracting-domain-objects) <a href='#footnotes'><span class='footnote'>[1]</span></a>, Gary Bernhardt uses a Struct to represent a [value object](http://c2.com/cgi/wiki?ValueObject). There are a couple of problems with doing this, because of the way Structs are implemented.
